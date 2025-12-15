@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # -----------------------------
 env = gym.make(
     "FrozenLake-v1",
-    map_name="6x6",
+    map_name="8x8",
     is_slippery=True
 )
 
@@ -60,3 +60,4 @@ for episode in range(num_episodes):
 
 
 env.close()
+
